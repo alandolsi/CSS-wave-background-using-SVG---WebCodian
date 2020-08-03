@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .hero{
+            width: 100%;
+            height: 500px;
+            position: relative;
+            background: linear-gradient(to right, #7F00FF 0%, #E100FF 100%);
+        }       
+
+        img{
+            width: 400px;
+            height: auto;
+            top: 60%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="img.png">
+    </div>
+    <svg viewBox="0 0 1440 320">
+        <defs>
+            <linearGradient id="gradient">
+              <stop offset="0%" stop-color="#7F00FF" />
+              <stop offset="100%" stop-color="#E100FF" />
+            </linearGradient>
+          </defs>
+        <path fill="url(#gradient)" fill-opacity="1" d="M0, 0L40, 26.7C80, 53, 160, 107, 240, 149.3C320, 192, 400, 224, 480, 202.7C560, 181, 640, 107, 720, 80C800, 53, 880, 75, 960, 74.7C1040, 75, 1120, 53, 1200, 53.3C1280, 53, 1360, 75, 1400, 85.3L1440, 96L1440, 0L1400, 0C1360, 0, 1280, 0, 1200, 0C1120, 0, 1040, 0, 960, 0C880, 0, 800, 0, 720, 0C640, 0, 560, 0, 480, 0C400, 0, 320, 0, 240, 0C160, 0, 80, 0, 40, 0L0, 0Z"></path>
+    </svg>
+</body>
+</html>
